@@ -4,7 +4,7 @@ class Hotel(models.Model):
     _name = "hotel.management.hotel"
     _description = "Hotel"
 
-    code = fields.Char(string="Hotel Code", required=True, unique=True)
+    name = fields.Char(string="Hotel Name", required=True, unique=True)
     address = fields.Char(string="Address")
     number_of_floors = fields.Integer(string="Number of Floors")
     number_of_rooms = fields.Integer(string="Number of Rooms", compute="_compute_number_of_rooms")

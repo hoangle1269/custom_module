@@ -17,7 +17,7 @@
                         <field name="status"/>
                     </group>
                     <footer>
-                        <button name="confirm_booking" string="Confirm" type="object" class="btn-primary" invisible = "state == 'new' "/>
+                        <button name="confirm_booking" string="Confirm" type="object" class="btn-primary" visible = "state == 'new' "/>
                         <button string="Cancel" class="btn-secondary" special="cancel"/>
                     </footer>
                 </sheet>
