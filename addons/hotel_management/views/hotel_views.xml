@@ -1,0 +1,19 @@
+<odoo>
+    <record id="view_hotel_form" model="ir.ui.view">
+        <field name="name">hotel.form</field>
+        <field name="model">hotel.management.hotel</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="code"/>
+                        <field name="address"/>
+                        <field name="number_of_floors"/>
+                        <field name="number_of_rooms" readonly="1"/>
+                    </group>
+                    <field name="room_ids"/>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

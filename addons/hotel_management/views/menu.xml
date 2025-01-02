@@ -1,0 +1,8 @@
+<odoo>
+    <menuitem id="menu_hotel_management_root" name="Hotel Management" sequence="1"/>
+
+    <menuitem id="menu_hotel_management_hotel" parent="menu_hotel_management_root" name="Hotels"/>
+    <menuitem id="menu_hotel_management_room" parent="menu_hotel_management_root" name="Rooms"/>
+    <menuitem id="menu_hotel_management_feature" parent="menu_hotel_management_root" name="Features"/>
+    <menuitem id="menu_hotel_management_booking" parent="menu_hotel_management_root" name="Bookings"/>
+</odoo>
